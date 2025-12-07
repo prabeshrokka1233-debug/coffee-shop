@@ -127,8 +127,8 @@ namespace SydneyCoffee
             }
 
             Console.WriteLine("-----------------------------------------------------------------------------");
-            Console.WriteLine($"The customer spending most is {maxName} ${max:F2}");
-            Console.WriteLine($"The customer spending least is {minName} ${min:F2}");
+            Console.WriteLine($" {maxName} spends the most which is ${max:F2}");
+            Console.WriteLine($" {minName}spends the most which is  ${min:F2}");
         }
     }
 }
